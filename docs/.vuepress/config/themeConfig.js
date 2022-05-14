@@ -9,7 +9,7 @@ const { penName, link, avatar, name, slogan } = require("../common/info");
 module.exports = {
   nav, // 导航栏
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: '/img/index/logo.png', // 导航栏logo
+  logo: 'https://gcore.jsdelivr.net/gh/nanayashiki21/picroom1/pic/default.png', // 导航栏logo
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '更新时间', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 指定根目录
@@ -103,29 +103,14 @@ module.exports = {
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
-        iconClass: 'icon-github',
-        title: 'GitHub',
-        link: 'https://github.com/kele-bingtang',
-      },
-      {
-        iconClass: 'icon-gitee',
-        title: 'Gitee',
-        link: 'https://gitee.com/kele-bingtang',
-      },
-      {
         iconClass: 'icon-rss',
         title: '网站首页',
-        link: 'https://www.youngkbt.cn',
-      },
-      {
-        iconClass: 'icon-QQ',
-        title: 'QQ',
-        link: 'http://wpa.qq.com/msgrd?v=3&uin=28761025&site=qq&menu=yes',
+        link: 'https://blog.241314.xyz/',
       },
       {
         iconClass: 'icon-youjian',
         title: '联系我',
-        link: 'https://www.youngkbt.cn/?contact=true',
+        link: 'https://blog.241314.xyz//?contact=true',
       },
     ],
   },

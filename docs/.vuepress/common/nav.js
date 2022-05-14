@@ -9,7 +9,6 @@ const developer = require("../nav/developer");
 const toolNav = require("../nav/toolNav");
 const frontEnd = require("../nav/frontEnd");
 const indexNav = require("../nav/indexNav");
-const moreNav = require("../nav/moreNav");
 module.exports = [
   {
     text: '首页', link: '/'
@@ -23,7 +22,8 @@ module.exports = [
   // cloudNav,  // 微服务导航
   toolNav,  // 工具导航
   frontEnd,  // 前端导航
-  moreNav,   // 更多导航
   indexNav,   //索引导航
-
+  {
+    text: '文件站', link: 'https://pan.241314.xyz/'
+  },
 ]
