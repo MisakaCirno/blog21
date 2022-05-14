@@ -9,7 +9,7 @@ const { penName, link, avatar, name, slogan } = require("../common/info");
 module.exports = {
   nav, // 导航栏
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: 'https://cdn.jsdelivr.net/gh/nanayashiki21/picroom1/pic/default.png', // 导航栏logo
+  logo: '/img/default.png', // 导航栏logo
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '更新时间', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 指定根目录
@@ -23,7 +23,7 @@ module.exports = {
   // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
   categoryText: '技术随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
-  bodyBgImg: 'https://cdn.jsdelivr.net/gh/nanayashiki21/picroom1/pic/123434324234.jpeg',
+  bodyBgImg: '/img/beijing.jpeg',
   // bodyBgImg: [
   //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
   //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
