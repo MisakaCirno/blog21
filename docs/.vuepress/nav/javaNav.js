@@ -6,10 +6,6 @@ module.exports = {
       text: 'java基础',
       items: [
         { text: 'Java基础', link: '/javase/' },
-        { text: 'Java注解', link: '/javase/annotation/' },
-        { text: 'Java反射', link: '/javase/reflex/' },
-        { text: 'JavaJUC', link: '/javase/juc/1/' },
-        { text: 'JavaJVM', link: '/java/jvm/' },
       ]
     },
     {
@@ -18,11 +14,6 @@ module.exports = {
         { text: 'JavaWeb', link: '/javaweb/concept/' },
       ]
     },
-    {
-      text: 'Java版本新特性',
-      items: [
-        { text: 'Java新特性', link: '/java/new-features/' },
-      ]
-    },
+
   ]
 }

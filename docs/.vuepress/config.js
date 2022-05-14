@@ -19,7 +19,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: penName + title,
-      description: 'Shiki24个人博客, VuePress搭建, 使用了 Vdoing 主题, 学习Java, Web, 框架, 微服务, 工具, 前端等相关知识, 记录生活和技术路程, 同时分享编程技巧。'
+      description: 'Shiki24个人博客'
     },
     // '/en/': {
     //   lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
