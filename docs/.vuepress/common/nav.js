@@ -14,9 +14,7 @@ module.exports = [
   {
     text: '首页', link: '/'
   },
-  {
-    text: '导航站', link: '/navigation/'
-  },
+
   javaNav,   //Java导航
   databaseNav,  // 数据库导航
   frameNav,   // 框架导航
@@ -27,7 +25,5 @@ module.exports = [
   frontEnd,  // 前端导航
   moreNav,   // 更多导航
   indexNav,   //索引导航
-  {
-    text: '留言区', link: '/message-area/'
-  },
+
 ]

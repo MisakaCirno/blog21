@@ -16,7 +16,7 @@ tags:
 
 ::: right
 
-2022-01-09 @Young Kbt
+2022-01-09 @Shiki24
 
 :::
 
@@ -30,7 +30,7 @@ tags:
 
 这是我目前 GitHub 的个人首页，多了一些内容，如卡片统计，仓库的语言统计等。
 
-![image-20220109174056830](https://cdn.jsdelivr.net/gh/Kele-Bingtang/static/img/github/20220109174059.png)
+![image-20220109174056830](https://gcore.jsdelivr.net/gh/Kele-Bingtang/static/img/github/20220109174059.png)
 
 你也可以直接去我的主页查看效果：<https://github.com/Kele-Bingtang>
 
@@ -40,7 +40,7 @@ tags:
 
 创建仓库的时候，记得公开仓库和创建 README 文件，如图：
 
-![image-20220109174430315](https://cdn.jsdelivr.net/gh/Kele-Bingtang/static/img/github/20220109174431.png)
+![image-20220109174430315](https://gcore.jsdelivr.net/gh/Kele-Bingtang/static/img/github/20220109174431.png)
 
 创建好仓库后，不需要克隆仓库到本地，我们直接在仓库里修改 README 文件即可。
 
