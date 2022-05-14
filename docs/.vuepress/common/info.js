@@ -10,7 +10,7 @@ const link = "https://blog.241314.xyz/";
 // 底部的 | 后的描述
 const footerTitle = 'blog';
 // 头像图片
-const avatar = 'https://fastly.jsdelivr.net/gh/nanayashiki21/picroom1/pic/44251080_p0_master1200.jpg'
+const avatar = 'https://cdn.jsdelivr.net/gh/nanayashiki21/picroom1/pic/20220514151708.png'
 // 头像下的昵称
 const name = 'Shiki24'
 // 头像下的签名
