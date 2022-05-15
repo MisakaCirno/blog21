@@ -1,8 +1,8 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Shiki24の记录站
-tagline: 死生之地，存亡之道，不可不察
+heroText: Shiki24の记录小站
+tagline: 死生之地，存亡之道
 
 pageClass: vdoing-index-class
 

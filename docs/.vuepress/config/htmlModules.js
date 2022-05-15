@@ -2,13 +2,13 @@
  * {
  *   homeSidebarB: htmlString, 首页侧边栏底部
  *
- *   sidebarT: htmlString, 所有左侧边栏顶部
- *   sidebarB: htmlString, 所有左侧边栏底部
+ *   sidebarT: htmlString, 全局左侧边栏顶部
+ *   sidebarB: htmlString, 全局左侧边栏底部
  *
- *   pageT: htmlString, 页面顶部
- *   pageB: htmlString, 页面底部
- *   pageTshowMode: string, 页面顶部-显示方式：未配置默认所有页面；'article' => 仅文章页①； 'custom' => 仅自定义页①
- *   pageBshowMode: string, 页面底部-显示方式：未配置默认所有页面；'article' => 仅文章页①； 'custom' => 仅自定义页①
+ *   pageT: htmlString, 全局页面顶部
+ *   pageB: htmlString, 全局页面底部
+ *   pageTshowMode: string, 页面顶部-显示方式：未配置默认全局；'article' => 仅文章页①； 'custom' => 仅自定义页①
+ *   pageBshowMode: string, 页面底部-显示方式：未配置默认全局；'article' => 仅文章页①； 'custom' => 仅自定义页①
  *
  *   windowLB: htmlString, 全局窗口左下角②
  *   windowRB: htmlString, 全局窗口右下角②
@@ -18,57 +18,11 @@
  * ②注：windowLB 和 windowRB：1.展示区块宽高最大是200*200px。2.请给自定义元素定一个不超过200px的固定宽高。3.在屏宽小于960px时无论如何都不会显示。
  */
 
-module.exports = {
+ module.exports = {
   homeSidebarB:
-    `<div style="padding: 0.95rem; font-size: 0.875rem;">
-      <div style="text-align: center; color: #888; font-weight: bold; padding: 0 0 10px 0;">
-        <i class="iconfont icon-award" style="font-size: 0.875rem; font-weight: 900;width: 1.25em;"></i>
-        <span>站点信息</span>
-      </div>
-      <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
-        <div style="display: inline-block;">
-          文章数目：
-        </div>
-        <div style="display: inline-block; float: right;">
-          13 篇
-        </div>
-      </div>
-
-      <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
-        <div style="display: inline-block;">
-          已运行时间：
-        </div>
-        <div style="display: inline-block; float: right;">
-          189 天
-        </div>
-      </div>
-
-      <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
-        <div style="display: inline-block;">
-          本站总字数：
-        </div>
-        <div style="display: inline-block; float: right;">
-          45.5k 字
-        </div>
-      </div>
-
-      <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
-        <div style="display: inline-block;">
-          本站被访问了：
-        </div>
-        <div style="display: inline-block; float: right;">
-          1202 次
-        </div>
-      </div>
-
-      <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
-        <div style="display: inline-block;">
-          最后活动时间：
-        </div>
-        <div style="display: inline-block; float: right;">
-          2 天前
-        </div>
-      </div>
+    `<div style="padding: 0.95rem">
+    <p>入市有风险，谨防电信诈骗</p>
+    <img src="https://cdn.jsdelivr.net/gh/nanayashiki21/picroom1/pic/1323.jpg"  style="width:100%;" />
     </div>`,
   // `<!-- 纵向自适应 -->
   // <ins class="adsbygoogle"

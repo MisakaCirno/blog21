@@ -2,6 +2,8 @@
 const mrfpNav= require("../nav/mrfpNav");
 const tradestudyNav= require("../nav/tradestudyNav");
 const tradeupNav= require("../nav/tradeupNav");
+const techNav= require("../nav/techNav");
+const touNav= require("../nav/touNav");
 module.exports = [
   {
     text: '首页', link: '/'
@@ -10,6 +12,8 @@ module.exports = [
   mrfpNav,  //每日复盘
   tradestudyNav,  //交易学习
   tradeupNav,  //交易进阶
+  touNav,     //大师偷学
+  techNav,  //技术开发
   {
     text: '文件站', link: 'https://pan.241314.xyz/'
   },
