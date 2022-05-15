@@ -12,9 +12,7 @@ module.exports = [
   //   // color: '#11a8cd', // 爱心颜色，默认随机色
   //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
   // }],
-//视频播放器
-'@vuepress-plugin-dplayer',
-
+  ['@vuepress-something/vuepress-plugin-dplayer'],
 // 音乐插件
 ['meting', {
     metingApi: "https://api.injahow.cn/meting/",
