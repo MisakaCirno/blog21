@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Shiki24の博客
+heroText: Shiki24の博客及文档库
 tagline: 死生之地，存亡之道，不可不察也。
 
 pageClass: vdoing-index-class
