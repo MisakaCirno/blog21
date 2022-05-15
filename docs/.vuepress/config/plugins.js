@@ -13,7 +13,7 @@ module.exports = [
   //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
   // }],
 //视频播放器
-'@vuepress-something/vuepress-plugin-dplayer',
+'@vuepress-plugin-dplayer',
 
 // 音乐插件
 ['meting', {
