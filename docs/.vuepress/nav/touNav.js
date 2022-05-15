@@ -6,6 +6,7 @@ module.exports = {
         text: '短线老师',
         items: [
           { text: '北京炒家', link: '/tou/bjcj/'},   
+          { text: '转债桃子', link: '/tou/bjcj/'},   
         ]
       },
       {
@@ -17,7 +18,8 @@ module.exports = {
       {
         text: '专业老师',
         items: [
-          { text: '石子W', link: '/tou/bj2cj/'},           
+          { text: '永乐大帝明成祖', link: '/tou/bj2cj/'}, 
+          { text: '石子W', link: '/tou/bj2cj/'},              
         ]
       },
       {
