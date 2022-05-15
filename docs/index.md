@@ -1,14 +1,14 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Shiki24の博客及文档库
-tagline: 死生之地，存亡之道，不可不察也。
+heroText: Shiki24の记录站
+tagline: 死生之地，存亡之道，不可不察
 
 pageClass: vdoing-index-class
 
 # actionText: 立刻进入 →
 # actionLink: /web/
-bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+#bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 # features: # 可选的
 #   - title: 前端
