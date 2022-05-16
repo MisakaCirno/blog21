@@ -1,5 +1,6 @@
 // import LastReadingPopup from './components/LastReadingPopup.vue'
 let busuanzi;
+import Login from './components/Login.vue'
 
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
