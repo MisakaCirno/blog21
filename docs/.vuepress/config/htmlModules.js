@@ -22,7 +22,7 @@
   homeSidebarB:
     `<div style="padding: 0.95rem">
     <p>入市有风险，谨防电信诈骗</p>
-    <img src="https://cdn.jsdelivr.net/gh/nanayashiki21/picroom1/pic/1323.jpg"  style="width:100%;" />
+    <img src="https://fastly.jsdelivr.net/gh/nanayashiki21/picroom1/pic/1323.jpg"  style="width:100%;" />
     </div>`,
   // `<!-- 纵向自适应 -->
   // <ins class="adsbygoogle"
